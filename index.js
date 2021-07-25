@@ -26,17 +26,35 @@
 // console.log(res);
 
 // 
+// Example-1 
+//  function md(){
+//  console.log("Ahmed");
+// }
 
- function md(){
- console.log("Ahmed");
-}
- md()
-function mohammed(a,b,c){
-    var R=(a-b-c);
-    return R;
-}
-var res=mohammed(10,10,20);
-console.log(res);
+// // Example-2
+//  md()
+// function mohammed(a,b,c){
+//     R=(a+b+c);
+//     return R;
+// }
+//  res=mohammed(10,15,5);
+// console.log(res);
+
+
+// m=4;
+// console.log(m>1);
+// output is true
+
+// m=4
+// console.log(m<1);
+// output is false
+
+// x=3
+// console.log(x<=3);
+// console.log(x>=3);
+// output is true 
+// Becuse
+//  = indicate as assign
 
 
 
