@@ -57,5 +57,25 @@
 //  = indicate as assign
 
 
+// example:1 using swich type
+function marks(m){
+ switch(true){
+    case m<35:
+    console.log("You are fail ,Repeat the exam");
+    break;
+     case  m>=35 && m<50:
+    console.log("You Pass");
+    break;
+    case m>=50 && m<60:
+    console.log("You achived Second class");
+    break;
+    case m>=60 && m<80:
+    console.log("You achived First class");
+    break;
+    case m>=80 && m<100:
+    console.log("You achived Ditinction ");
+ }
+}
+marks(79); 
 
 
