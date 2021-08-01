@@ -91,7 +91,15 @@ console.log(Animals);
 
 
 // To defined the perticular elment
-console.log(Animals[3]);
+console.log(Animals[0]);
+console.log(Animals[4]);
+console.log(Animals[7]);
+
+// to view the undefined elements
+console.log(Animals[13]);
+
+// To konw the length of the arrya
+console.log(Animals.length);
 
 // // To add the new elemet at first
 Animals.unshift("xyz")
@@ -101,7 +109,7 @@ console.log(Animals);
 Animals.shift()
 console.log(Animals);
 
-// To add the new elemet at end
+// To add the new elemet at last
 Animals.push("abcd");
 console.log(Animals);
 
@@ -114,12 +122,12 @@ Animals.reverse();
 console.log(Animals);
 
 // To add the element @ middle of the Array
-Animals.splice(3,0,"goat");
+Animals.splice(3,0,"xyz");      //Adding a new element after 3index
 console.log(Animals);
 
-// To Remove repalce the new Element
+// To Remove & Repalce the new Element
 
-Animals.splice(3,1,"xyz");     //3 indicate delete the element 3 and 
+Animals.splice(3,1,"panda");     //Repalcing xyz to panda
 console.log(Animals);
 
 // Interating over an Array
