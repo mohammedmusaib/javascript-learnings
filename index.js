@@ -58,24 +58,73 @@
 
 
 // example:1 using swich type
-function marks(m){
- switch(true){
-    case m<35:
-    console.log("You are fail ,Repeat the exam");
-    break;
-     case  m>=35 && m<50:
-    console.log("You Pass");
-    break;
-    case m>=50 && m<60:
-    console.log("You achived Second class");
-    break;
-    case m>=60 && m<80:
-    console.log("You achived First class");
-    break;
-    case m>=80 && m<100:
-    console.log("You achived Ditinction ");
+// function marks(m){
+//  switch(true){
+//     case m<35:
+//     console.log("You are fail ,Repeat the exam");
+//     break;
+//      case  m>=35 && m<50:
+//     console.log("You Pass");
+//     break;
+//     case m>=50 && m<60:
+//     console.log("You achived Second class"); 
+//     break;
+//     case m>=60 && m<80:
+//     console.log("You achived First class");
+//     break;
+//     case m>=80 && m<100:
+//     console.log("You achived Ditinction ");
+//  }
+// }
+// marks(79); 
+
+// multilpy using Function
+// function flooring(l,b){
+// //    console.log((l)*(b));
+// }
+// flooring(2,2); //add the length,breadth
+//   //output 4
+
+// Subject: Array   Date 01/08/2021
+var Animals=["Tiger","Lion","Elephant","Bull","Camel","Kangro","Cat","Dog","Goat","Monkey"]
+console.log(Animals);
+
+
+// To defined the perticular elment
+console.log(Animals[3]);
+
+// // To add the new elemet at first
+Animals.unshift("xyz")
+console.log(Animals);
+
+// To remove the customElements
+Animals.shift()
+console.log(Animals);
+
+// To add the new elemet at end
+Animals.push("abcd");
+console.log(Animals);
+
+// To Remove the element at last 
+Animals.pop();
+console.log(Animals);
+
+// To reverse the entire element
+Animals.reverse();
+console.log(Animals);
+
+// To add the element @ middle of the Array
+Animals.splice(3,0,"goat");
+console.log(Animals);
+
+// To Remove repalce the new Element
+
+Animals.splice(3,1,"xyz");     //3 indicate delete the element 3 and 
+console.log(Animals);
+
+// Interating over an Array
+ for (var i=0; i<=Animals.length-1; i++){
+     console.log(Animals[i]);
  }
-}
-marks(79); 
 
 
