@@ -85,54 +85,110 @@
 // flooring(2,2); //add the length,breadth
 //   //output 4
 
-// Subject: Array   Date 01/08/2021
-var Animals=["Tiger","Lion","Elephant","Bull","Camel","Kangro","Cat","Dog","Goat","Monkey"]
-console.log(Animals);
+// // Subject: Array   Date 01/08/2021
+// var Animals=["Tiger","Lion","Elephant","Bull","Camel","Kangro","Cat","Dog","Goat","Monkey"]
+// console.log(Animals);
 
 
-// To defined the perticular elment
-console.log(Animals[0]);
-console.log(Animals[4]);
-console.log(Animals[7]);
+// // To defined the perticular elment
+// console.log(Animals[0]);
+// console.log(Animals[4]);
+// console.log(Animals[7]);
 
-// to view the undefined elements
-console.log(Animals[13]);
+// // to view the undefined elements
+// console.log(Animals[13]);
 
-// To konw the length of the arrya
-console.log(Animals.length);
+// // To konw the length of the arrya
+// console.log(Animals.length);
 
-// // To add the new elemet at first
-Animals.unshift("xyz")
-console.log(Animals);
+// // // To add the new elemet at first
+// Animals.unshift("xyz")
+// console.log(Animals);
 
-// To remove the customElements
-Animals.shift()
-console.log(Animals);
+// // To remove the customElements
+// Animals.shift()
+// console.log(Animals);
 
-// To add the new elemet at last
-Animals.push("abcd");
-console.log(Animals);
+// // To add the new elemet at last
+// Animals.push("abcd");
+// console.log(Animals);
 
-// To Remove the element at last 
-Animals.pop();
-console.log(Animals);
+// // To Remove the element at last 
+// Animals.pop();
+// console.log(Animals);
 
-// To reverse the entire element
-Animals.reverse();
-console.log(Animals);
+// // To reverse the entire element
+// Animals.reverse();
+// console.log(Animals);
 
-// To add the element @ middle of the Array
-Animals.splice(3,0,"xyz");      //Adding a new element after 3index
-console.log(Animals);
+// // To add the element @ middle of the Array
+// Animals.splice(3,0,"xyz");      //Adding a new element after 3index
+// console.log(Animals);
 
-// To Remove & Repalce the new Element
+// // To Remove & Repalce the new Element
 
-Animals.splice(3,1,"panda");     //Repalcing xyz to panda
-console.log(Animals);
+// Animals.splice(3,1,"panda");     //Repalcing xyz to panda
+// console.log(Animals);
 
-// Interating over an Array
- for (var i=0; i<=Animals.length-1; i++){
-     console.log(Animals[i]);
- }
+// // Interating over an Array
+//  for (var i=0; i<=Animals.length-1; i++){
+//      console.log(Animals[i]);
+//  }
+
+// // comparision parameters
+// var a = 35
+// var b = 25
+// c=a===b;
+// document.write(c);
+// console.log(c);
+ 
+
+// Objects 07-08-2021
+var student1={
+    name:"mohammed",
+    Age:25,
+    Mobile:'+91-8892265369',
+    state:'Karnataka',
+}
+console.log(student1);
+console.log(student1.name);   //dot notation
+console.log(student1.Age);
+
+console.log(student1["Mobile"]);   // object notation
+console.log(student1['state']);
+
+
+
+var  student1={
+    name :'Mohammed Musaib',
+    Age :25,
+    Mobile:8892265369,
+    Address :{
+        State:'Karnataka',
+        Country:'India',
+    }
+    
+}
+console.log(student1);
+console.log(student1.Address);
+console.log(student1.Address.State);
+console.log(student1['Address']['Country']);
+
+student1.gender="Male"
+console.log(student1.gender);
+
+// Fucntion with in the obect called method
+
+var video = {
+    name: 'access JS class',
+    play : function () {
+        console.log('Video Played')
+    },
+    time: [0, 30, 90]
+
+}
+console.log(video.time);
+
+var student1=student2
 
 
