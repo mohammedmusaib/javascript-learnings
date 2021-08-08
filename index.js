@@ -176,19 +176,40 @@ console.log(student1['Address']['Country']);
 
 student1.gender="Male"
 console.log(student1.gender);
+var student2=student1;
 
-// Fucntion with in the obect called method
+console.log(student2);
+// Fucntion with in the object called method
 
 var video = {
     name: 'access JS class',
     play : function () {
-        console.log('Video Played')
+        console.log('Video Played');
     },
-    time: [0, 30, 90]
-
+    time: ['start',0, 30, 90,'end'],
 }
+console.log(video);
+console.log(video.play());
+
 console.log(video.time);
+console.log(video.time[2]);
 
-var student1=student2
 
+
+
+// by using Array,fucntion,in the object method
+
+var Biodata={
+    name:'Moahmmed Shuaib',
+    DoB:'00-00-1995',
+    Adress:'Tg tank Road',
+    animals:['Dog','Cat','Lion'],
+    Fruit : function(){
+        return 'Banana';
+    }
+}
+console.log(Biodata);         //{name: "Moahmmed Shuaib", DoB: "00-00-1995", Adress: "Tg tank Road", animals: Array(3), Fruit: ƒ}
+console.log(Biodata.Fruit());  //Banana
+console.log(Biodata.animals);  //(3) ["Dog", "Cat", "Lion"]
+console.log(Biodata.animals[2]);  //Lion
 
