@@ -213,3 +213,144 @@ console.log(Biodata.Fruit());  //Banana
 console.log(Biodata.animals);  //(3) ["Dog", "Cat", "Lion"]
 console.log(Biodata.animals[2]);  //Lion
 
+
+// if else statement in javascript
+var Age=18;
+
+if(Age>=18 && Age<=60){
+    console.log('You are eligible to Drive');
+}
+else{
+    console.log('You are Not eligible to Drive');
+}
+
+
+var names="Mohamed Musaib";
+var gender="male";
+
+if(gender=='male'){
+    document.write("Hello Mr." + names);
+}
+else{
+    document.write("Hello Miss" + names);
+}
+
+//  mtr to ft using function in javascript
+function feet(l,b){
+    console.log(l*3.28+b*3.28);
+}
+feet(3,0)
+
+// if else if statement in javascript 9-08-2021
+
+var Musaib = 70;
+
+if(Musaib>=70 && Musaib<=100){
+    console.log("You are in FCD list")
+}
+else if(Musaib>=60 && Musaib<70){
+    console.log("You are in FC list")
+}
+else if(Musaib>=50 && Musaib<60){
+    console.log("You are in SC list")
+}
+else if(Musaib>=35 && Musaib<50){
+    console.log("You are in Pass list")
+}
+else if( Musaib<35){
+    console.log("You are in Fail list")
+}
+else {
+    console.log("please input excats marks")
+}
+
+
+// if else if statement in javascript 9-08-2021
+
+var time=11.7;
+
+if(time>=1 && time<6){
+    console.log("Mid Night");
+}
+else if(time>=6 && time<12){
+    console.log("Good Morning");   
+}
+else if(time>=12 && time<18){
+    console.log("Good Afternoon");
+}
+else if(time>=18 && time<24){
+    console.log("Good Night");
+}
+else {
+    console.log("plese set the time properly");
+}
+
+// swich statement in javascript
+
+var d=1;
+    switch (d) {
+        case d=1: 
+            console.log("Today id Monday");
+            break;
+            case d=2:
+                console.log("Today id Tuesday");
+                break;
+                cased3:
+               console.log("Today id Wednesday");
+               break;
+                 case d=4:
+              console.log("Today id Thursday");
+                break;
+    
+                case d=5:
+                console.log("Today id Friday");
+                break;
+                case 6:
+                 console.log("Today id Saturday");
+              break;
+              case 7:
+                 console.log("Today id Sunday");
+              break;
+    
+        default:
+            console.log('Enter the Valid day');
+            break;
+    }
+
+// use of switch statement and fucntion
+
+function day(d){
+    switch (d) {
+        case d=1:
+            console.log("Today id Monday");
+            break;
+            case d=2:
+                console.log("Today id Tuesday");
+                break;
+                cased3:
+               console.log("Today id Wednesday");
+               break;
+                 case d=4:
+              console.log("Today id Thursday");
+                break;
+    
+                case d=5:
+                console.log("Today id Friday");
+                break;
+                case 6:
+                 console.log("Today id Saturday");
+              break;
+              case 7:
+                 console.log("Today id Sunday");
+              break;
+    
+        default:
+            console.log('Enter the Valid day');
+            break;
+    }
+
+}
+
+day(5)
+
+
